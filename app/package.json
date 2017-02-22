@@ -1,0 +1,13 @@
+{
+  "name": "docker_webapp",
+  "version": "0.0.1",
+  "description": "Node.js on Docker",
+  "author": "Antoine <antoine.amadeus@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
