@@ -19,7 +19,7 @@ $ docker images
 ```
 $ docker run -p 25689:8080 -d <your username>/my-node-webapp
 ```
-The 'p flag redirects a public port to a private port inside the container (here the port 49160 redirects to port 8080 exoposed inside the container - see the Dockerfile where you can see the instruction "EXPOSE 8080"). You can choose any available port.
+The 'p flag redirects a public port to a private port inside the container (here the port 25689 redirects to port 8080 exposed inside the container - see the Dockerfile where you can see the instruction "EXPOSE 8080"). You can choose any available port.
 The -d flag makes the container run in "detached" mode - it leaves the container running in the background.
 
 Check the output of your app:
